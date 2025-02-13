@@ -4,7 +4,7 @@ import '../style.css';
 const Header = ({name}) => {
     return (
         <header className="header">
-            <h1 id="header-cust">Welcome {name} to the <span id="special">CodeCraft</span> Labs Intranet</h1>
+            <h1 id="header-cust">Welcome {name}, to the <span id="special">CodeCraft</span> Labs Intranet</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
