@@ -1,8 +1,7 @@
 import '../style.css';
 
-const name = 'Jo'
 
-const Header = () => {
+const Header = ({name}) => {
     return (
         <header className="header">
             <h1 id="header-cust">Welcome {name} to the <span id="special">CodeCraft</span> Labs Intranet</h1>
